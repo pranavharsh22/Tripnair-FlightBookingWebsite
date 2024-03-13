@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+}
+.flex-start{
+  align-items: flex-start;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.space-between{
+  justify-content: space-between;
+}
+.tripnair-logo img{
+  width: 100%;
+}
+.justify-start{
+  justify-content: flex-start;
+}
+.gap{
+  padding: 50px 0;
+}
+.tripnair-logo{
+  width: 12%;
+  padding: 10px;
+}
+.container{
+  margin: 0 auto;
+  max-width: 90%;
+}
+.side-menu p{
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 10px;
+  color: #000;
+}
+.number p{
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 10px;
+  color: #000;
+  font-weight: 400;
+}
+header{
+  background: #fff;
+  box-shadow: 0 0  10px #d9d9d9;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.travel-heading p{
+  font-family:"Roboto", sans-serif; ;
+}
+
+.travel-heading h5{
+  color: #2e71d6;
+  font-size: 26px;
+  line-height: 1.1;
+  font-family: "Satisfy", cursive;
+  margin-bottom: 10px;
+}
+.col-50{
+  width: 49%;
+}
+.travel-heading h1{
+  font-size: 39px;
+  margin-bottom: 15px;
+}
+.travel-heading h1 span{
+  color: #2e71d6;
+}
+.book-form{
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+  padding: 15px;
+  width: 48%;
+}
+.one-way{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+.round-trip label{
+  margin-left: 7px;
+}
+
+.way{
+  margin-left: 10px;
+
+}
+
+
+
+.way label{
+  margin-left: 7px;
+}
+.departing-from input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #c0cad5;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: transparent;
+  display: block;
+
+}
+.departing-from{
+  margin-right: 25px;
+  position: relative;
+}
+.date input{
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #c0cad5;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: transparent;
+  display: block;
+  border-radius: 5px;
+
+}
+.date{
+  margin-bottom: 10px;
+}
+.adult-child{
+  margin-bottom: 10px;
+}
+.adult-child select{
+  width: 49%;
+  padding: 10px;
+  border: 1px solid #c0cad5;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: transparent;
+  display: block;
+  border-radius: 5px;
+
+}
+.find-btn button{
+  width:100%;
+  color: #fff;
+  background: #2e71d6;
+  border: none;
+  border-radius: 5px;
+padding: 10px;
+font-family: "Roboto", sans-serif;
+
+}
+.footer-section{
+  background: #2e71d6;
+  width: 100%;
+}
+.footer-part{
+  padding:50px;
+  border-bottom: 1px solid #fff;
+}
+.contact-us h1{
+color: #fff;
+font-weight: bold;
+font-size: 22px;
+margin-bottom: 10px;
+}
+.our-company h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.our-company p{
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.airlines h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.support h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+
+}
+.airlines p{
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.support p{
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  
+}
+.customer-care p{
+  color: #fff;
+  font-family: "Kanit",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.customer-care{
+  margin-bottom: 10px;
+}
+.live-support p{
+  color: #fff;
+  font-family: "kanit",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.disclaimer{
+  padding: 50px;
+}
+.disclaimer span{
+  color: #fff;
+  font-weight: bold;
+  font-family: "kanit",sans-serif;
+  font-size: 16px;
+}
+.disclaimer p{
+  color: #fff;
+  font-family: "kanit",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.booking-confirmation{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/andy-ramos-kr9HOdBFjuk-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  margin-bottom: 10px;
+}
+.booking-confirmation p{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+.flight-booked p{
+  color: #2e71d6;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Roboto',sans-serif;
+}
+.flight-booked{
+  margin-bottom: 20px;
+}
+.hello-john span{
+  color: #2e71d6;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+}
+.hello-john p{
+  color: #000;
+  font-family: 'kanit',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tick{
+  margin-bottom: 10px;
+}
+.ticket-layout{
+  box-shadow: 0 0  10px #d9d9d9;
+  background: #fff;
+  border-radius: 10px;
+}
+.person-information{
+  padding: 15px;
+}
+.qr-code{
+  width: 10%;
+  margin-right: 30px;
+}
+.qr-code img{
+  width: 100%;
+}
+.bold{
+  font-weight: bold;
+}
+.passenger p{
+  font-family: 'Kanit',sans-serif;
+  font-size: 16px;
+}
+.john p{
+  color: #2e71d6;
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+.passenger {
+  margin-bottom: 10px;
+}
+.ticket-number p{
+  font-family: 'Kanit',sans-serif;
+}
+.fromto{
+  padding: 15px;
+}
+.from p{
+  font-size: 16px;
+  font-family: 'Kanit',sans-serif;
+  font-weight: 300;
+}
+.from span{
+  font-size: 30px;
+  color: #2e71d6;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+.flight-depart p{
+  margin: 25px;
+  font-family: 'Kanit',sans-serif;
+}
+.flight-depart span{
+  font-weight: bold;
+}
+.to p{
+  font-size: 16px;
+  font-family: 'Kanit',sans-serif;
+  font-weight: 300;
+}
+.to span{
+  font-size: 30px;
+  color: #2e71d6;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+.airways-details{
+  margin-top: 50px;
+}
+.flightresults{
+  background-color: #d1e1e7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.airways-card {
+  background: #fff;
+  
+  border: none;
+  box-shadow: 0 0  10px #d9d9d9;
+}
+.tickets-information{
+  padding: 25px;
+}
+.airways-name p{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 600;
+}
+.airways-name img{
+  width: 10%;
+}
+.airline-logo{
+  width: 18%;
+}
+.airline-logo img{
+  width: 100%;
+}
+.airways-name{
+  width: 45%;
+}
+
+.airways-price p{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 600;
+}
+.book-now{
+  margin: 15px;
+}
+.lga span{
+  color: #2e71d6;
+  font-family: 'Kanit',sans-serif;
+  font-weight: bold;
+}
+.lga p{
+  font-family: 'Kanit',sans-serif;
+  color: #2e71d6;
+  font-weight: 300;
+}
+.bos span{
+  color: #2e71d6;
+  font-family: 'Kanit',sans-serif;
+  font-weight: bold;
+}
+.bos p{
+  font-family: 'Kanit',sans-serif;
+  color: #2e71d6;
+  font-weight: 300;
+}
+.total-fare span{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 600;
+
+}
+.total-fare p{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 300;
+}
+  .book-btn button {
+    background: #2e71d6;
+    color: #fff;
+    padding: 13px;
+    border-radius: 28px;
+    border: none;
+    font-weight: 300;
+    font-family: 'Kanit',sans-serif;
+}
+.results-list{
+  width: 100%;
+  background-color: #fff;
+  /* display: flex; */
+  position: absolute;
+  top: 42px;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  
+  max-height: 300px;
+}
+.search-result{
+  padding: 10px 20px;
+  font-family: 'Kanit',sans-serif;
+}
+.search-result:hover{
+  background-color: #2e71d6;
+  color: #fff;
+  font-family: 'Kanit',sans-serif;
+}
+.search-result1{
+  padding: 10px 20px;
+  font-family: 'Kanit',sans-serif;
+}
+.search-result1:hover{
+  background-color: #2e71d6;
+  color: #fff;
+  font-family: 'Kanit',sans-serif;
+}
+.loading-card-top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.loading-card{
+  box-shadow: 0 0  10px #d9d9d9;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 30%;
+  background: #fff;
+  z-index: 999;
+}
+.card-details{
+  padding: 30px;
+}
+.phone-number p{
+  font-family: 'Kanit',sans-serif;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.best-flights p{
+  font-family: 'Kanit',sans-serif;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.best-flights{
+  margin-bottom: 5px;
+}
+.best-flights span{
+  color: #2e71d6;
+  font-family: 'Kanit',sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.flight-date{
+  font-family: 'Kanit',sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #000;
+
+}
+.stop-filter{
+  width: 25%;
+  background: #fff;
+  box-shadow: 0 0  10px #d9d9d9;
+ 
+}
+.flight-details{
+  width: 71%;
+}
+.side{
+  padding: 20px;
+
+}
+.stop-filter{
+  margin-right: 10px;
+  height: 450px;
+}
+.side h2{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.non-stop,.one-stop,.two-stop{
+  margin-bottom: 10px;
+  font-family: 'Kanit',sans-serif;
+}
+.airline-filter h2{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px
+
+}
+.air-india,.vistara,.spicejet,.indigo{
+  margin-bottom: 10px;
+  font-family: 'Kanit', sans-serif;
+}
+.airline-filter{
+  padding: 20px;
+}
+.all-flights{
+  margin-bottom: 10px;
+  font-family: 'Kanit', sans-serif;
+}
+.passenger-form{
+  background: #fff;
+  box-shadow: 0 0  10px #d9d9d9;
+  margin-top: 20px;
+}
+.passenger-details{
+  padding: 20px;
+}
+.firstname input{
+  width: 100%;
+  border: 1px solid grey;
+  padding: 6px;
+  border-radius: 5px;
+  font-family: 'Kanit',sans-serif;
+ 
+}
+
+.last-name input{
+  width: 100%;
+  border: 1px solid grey;
+  padding: 6px;
+  border-radius: 5px;
+  font-family: 'Kanit',sans-serif;
+
+ 
+}
+.firstname,.last-name{
+  width: 45%;
+}
+.firstname label{
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}
+.last-name label{
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}
+.male,.birthday{
+  width: 45%;
+}
+.male label{
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.birthday label{
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+}
+.male select{
+  width: 103%;
+  padding: 4px;
+  border-radius: 5px;
+  font-family:'Kanit',sans-serif ;
+ 
+  border: 1px solid grey;
+}
+.birthday input{
+  width: 100%;
+  border: 1px solid grey;
+  padding: 6px;
+  border-radius: 5px;
+}
+.traveler-information{
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.traveler-information p{
+  font-size: 16px;
+  font-family: 'Kanit',sans-serif;
+  
+}
+.important p{
+  font-family: 'Kanit',sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.enter-details p{
+  color: #2e71d6;
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: "Satisfy", cursive;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+.booknow button{
+  width: 100%;
+  padding: 10px;
+  background: #2e71d6;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Kanit',sans-serif;
+}
+.gender-details{
+  margin-bottom: 22px;
+}
+.flight-summary{
+  background: #fff;
+  box-shadow: 0 0  10px #d9d9d9;
+  margin-top: 20px;
+}
+.flight-passenger{
+  padding: 20px;
+}
+.flight-information p{
+  font-family: 'Kanit',sans-serif;
+  font-size: 16px;
+}
+.easy-cancellation{
+  border: 1px solid #4fb67a;
+  border-radius: 5px;
+  background:#4fb67a ;
+  color: #fff;
+}
+.ticketoutline{
+  padding: 5px 15px;
+  
+}
+.ticketoutline p{
+  font-family: 'Kanit',sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.upper-cancellation{
+  border-bottom: 1px solid grey;
+}
+.flight-information{
+  margin-bottom: 5px;
+}
+.easy-cancellation{
+  margin-bottom: 5px;
+}
+.final-details p{
+  font-family: 'Kanit',sans-serif;
+  font-size: 16px;
+}
+.final-details{
+  margin-top: 10px;
+}
+.letsee{
+  margin-top: 10px;
+  font-family: 'Kanit',sans-serif;
+}
+.passenger-form{
+  margin-bottom: 20px;
+}
+.from-details span,.to-details span,.finalairline-details span,.final-duration span{
+  font-size: 25px;
+  color: #2e71d6;
+  font-weight: 600;
+}
+.airlinename{
+  width: 6%;
+}
+.airlinename img{
+  width: 100%;
+}
+.airline p{
+  font-family: 'Kanit',sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.airlineinformation{
+  border-bottom: 1px solid grey;
+}
+.print-btn{
+  width: 100%;
+}
+.print-btn button{
+  width: 100%;
+  background: #2e71d6;
+  font-size: 16px;
+  font-family: 'Kanit',sans-serif;
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+}
+.home-from label,.home-to label{
+  display: flex;
+  justify-content:center ;
+  font-family: 'Kanit',sans-serif;
+}
+.home-from{
+  width: 45%;
+}
+.home-to{
+  width: 45%;
+}
+.home-to input,.home-from input{
+  width: 100%;
+}
+.flight-date p{
+  margin: 10px;
+  font-weight: 600;
+}
+@media (max-width:767px){
+  .travel-heading{
+    width: 100%;
+  }
+  .book-form{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .date input{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .tripnair-logo{
+    width: 40%;
+  }
+  .logo-number{
+    display: none;
+  }
+  .travel-heading h5 {
+  font-size: 25px;
+  }
+  .travel-heading h1 span{
+    font-size: 30px;
+  }
+  .travel-heading h1{
+    font-size: 30px;
+  }
+  .footer-part {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    gap: 1rem;
+}
+.loading-card{
+  width: 100%;
+}
+.contact-us h1{
+  font-size: 18px;
+}
+.customer-care p{
+  font-size: 12px;
+}
+.live-support p{
+  font-size: 12px;
+}
+.airlines h1{
+  font-size: 18px;
+}
+.airlines p{
+  font-size: 12px;
+}
+.our-company h1{
+  font-size: 18px;
+}
+.our-company p{
+  font-size: 12px;
+}
+.support h1{
+  font-size: 18px;
+}
+.support p{
+  font-size: 12px;
+}
+.stop-filter{
+  width: 100%;
+  height: 395px;
+}
+.flight-details{
+  width: 100%;
+  margin-top: 15px;
+}
+.screenshot img{
+  width: 100%;
+  
+}
+.qr-code{
+  width:40% ;
+}
+.booking-confirmation p{
+  font-size: 25px;
+}
+.flight-booked p{
+  font-size: 25px;
+}
+.hello-john p{
+  font-size: 18px;
+}
+.hello-john span{
+  width: 18px;
+}
+.flight-depart img{
+  width: 100%;
+}
+.disclaimer p{
+  font-size: 12px
+}
+.disclaimer{
+  padding: 10px;
+}
+.disclaimer span{
+  font-size: 12px
+}
+}
